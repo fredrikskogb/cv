@@ -1,0 +1,155 @@
+h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    border-bottom: 0.5px solid rgb(58, 58, 58);
+    padding-bottom: 7px;
+}
+
+p, li, td {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-size: 85%;
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+    color: rgb(58, 58, 58);
+}
+
+.introduction {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about {
+    margin: 8px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.contact {
+    display: inline;
+    font-weight: bold;
+}
+
+.profile {
+    margin: 8px auto;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.picture {
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.knowledgeWrapper{
+    margin: 8px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.knowledge {
+    display: flex;
+}
+
+.knowledge div {
+    flex-basis: 50%;
+    margin: 10px;
+}
+
+.language {
+    position: relative;
+}
+
+hr {
+    border: hidden;
+    border-radius: 2px;
+    height: 11px;
+    text-align: left;
+    margin-right: 0;
+    margin-left: 0;
+    background-color: rgb(216, 216, 216);
+    position: absolute;
+    bottom: -1.5em;
+    z-index: 1;
+    width: 100%;
+}
+
+.htmlBorder {
+    width: 87%;
+    z-index: 2;
+    background-color: rgb(91, 131, 206);
+}
+
+.cssBorder {
+    width: 88%;
+    z-index: 2;
+    background-color: rgb(91, 131, 206);
+}
+
+.wordpressBorder {
+    width: 60%;
+    z-index: 2;
+    background-color: rgb(91, 131, 206);
+}
+
+.phpBorder {
+    width: 60%;
+    z-index: 2;
+    background-color: rgb(91, 131, 206);
+}
+
+.javascriptBorder {
+    width: 33%;
+    z-index: 2;
+    background-color: rgb(91, 131, 206);
+}
+
+.mysqlBorder {
+    width: 45%;
+    z-index: 2;
+    background-color: rgb(91, 131, 206);
+}
+
+.gitBorder {
+    width: 50%;
+    z-index: 2;
+    background-color: rgb(91, 131, 206);
+}
+
+.workingExperience{
+    margin: 8px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0 15px;
+}
+
+.education {
+    margin: 8px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+@media only screen and (min-width: 998px) {
+    main {
+        padding: 10px 235px 10px 235px;
+    }
+
+    .introduction {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
