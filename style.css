@@ -84,8 +84,8 @@ hr {
     width: 100%;
 }
 
-.htmlBorder {
-    width: 87%;
+.angularBorder {
+    width: 70%;
     z-index: 2;
     background-color: rgb(91, 131, 206);
 }
@@ -96,8 +96,8 @@ hr {
     background-color: rgb(91, 131, 206);
 }
 
-.wordpressBorder {
-    width: 60%;
+.reactBorder {
+    width: 50%;
     z-index: 2;
     background-color: rgb(91, 131, 206);
 }
