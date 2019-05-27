@@ -85,7 +85,7 @@ hr {
 }
 
 .angularBorder {
-    width: 70%;
+    width: 60%;
     z-index: 2;
     background-color: rgb(91, 131, 206);
 }
@@ -97,7 +97,7 @@ hr {
 }
 
 .reactBorder {
-    width: 50%;
+    width: 40%;
     z-index: 2;
     background-color: rgb(91, 131, 206);
 }
@@ -109,7 +109,7 @@ hr {
 }
 
 .javascriptBorder {
-    width: 33%;
+    width: 75%;
     z-index: 2;
     background-color: rgb(91, 131, 206);
 }
