@@ -85,13 +85,13 @@ hr {
 }
 
 .angularBorder {
-    width: 60%;
+    width: 40%;
     z-index: 2;
     background-color: rgb(91, 131, 206);
 }
 
-.cssBorder {
-    width: 88%;
+.vueBorder {
+    width: 75%;
     z-index: 2;
     background-color: rgb(91, 131, 206);
 }
@@ -103,7 +103,7 @@ hr {
 }
 
 .phpBorder {
-    width: 60%;
+    width: 30%;
     z-index: 2;
     background-color: rgb(91, 131, 206);
 }
