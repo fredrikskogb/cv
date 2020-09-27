@@ -5,27 +5,17 @@ document.addEventListener("DOMContentLoaded", () => {
         for(let i = 0; i < experienceContainers.length; i++) {
             experienceContainers[i].addEventListener('click', e => {
                 if(e.target.classList.contains('expand')) {
-                    show(e.target);
-                    activeToggle(e.target);
+                    show(e.target.nextElementSibling, 'show');
+                    show(e.target, 'active');
                 }
-            })
+            });
         }
     }
 
-    function show (el) {
-        const sibling = el.nextElementSibling;
-        if (sibling.classList.contains('show')) {
-            sibling.classList.remove('show');
-        } else {
-            sibling.classList.add('show');
-        }
-    }
-
-    function activeToggle (el) {
-        console.log(el);
-        el.classList.contains('active')
-            ? el.classList.remove('active')
-            : el.classList.add('active');
+    function show (el, classToAdd) {
+        el.classList.contains(classToAdd)
+            ? el.classList.remove(classToAdd)
+            : el.classList.add(classToAdd);
     }
 
     showExperienceContainers();
