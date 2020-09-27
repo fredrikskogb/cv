@@ -90,6 +90,10 @@ img {
     width: 30%;
 }
 
+.language a {
+    color: rgb(91, 131, 206);
+}
+
 hr {
     border: hidden;
     border-radius: 2px;
