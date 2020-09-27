@@ -3,7 +3,7 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-    border-bottom: 0.5px solid rgb(58, 58, 58);
+    border-bottom: 0.5px solid rgba(58, 58, 58, 0.5);
     padding-bottom: 7px;
 }
 
@@ -24,8 +24,8 @@ body {
 }
 
 .about {
-    margin: 8px;
-    padding: 15px;
+    margin: 8px 8px 0 8px;
+    padding: 15px 15px 0 15px;
     border-radius: 5px;
 }
 
@@ -38,9 +38,13 @@ body {
     font-weight: bold;
 }
 
+.contact-list {
+    padding-left: 20px;
+}
+
 .profile {
-    margin: 8px auto;
-    padding: 15px;
+    margin: 8px auto 0 auto;
+    padding: 15px 15px 0 15px;
     border-radius: 5px;
 }
 
@@ -71,6 +75,7 @@ img {
 
 .knowledge {
     margin-top: 10px;
+    justify-content: space-between;
 }
 .knowledge:first-child {
     margin-top: 0;
@@ -82,7 +87,7 @@ img {
 
 .language {
     position: relative;
-    flex-basis: 33%;
+    width: 30%;
 }
 
 hr {
@@ -118,7 +123,7 @@ hr {
 }
 
 .spring-boot-border {
-    width: 40%;
+    width: 50%;
     z-index: 2;
     background-color: rgb(91, 131, 206);
 }
@@ -176,11 +181,14 @@ hr {
 
 .experience-text {
     width:100px;
-    height: 10px;
-    border:1px solid black;
     flex-basis: 100%;
     display: none;
     margin-bottom: 20px;
+    font-style: italic;
+}
+.experience-text ul li {
+    display: list-item;
+    list-style: disc;
 }
 .show {
     display: block;
@@ -194,8 +202,14 @@ hr {
 }
 
 @media only screen and (max-width: 550px) {
+    .language {
+        width: 25%;
+    }
     .experience-list li {
         border-bottom: 0.5px solid rgba(58, 58, 58, 0.3);
+    }
+    .experience-list li:last-child {
+        border-bottom: none;
     }
     .experience-text {
         margin: 0 20px 20px 20px;
@@ -204,9 +218,6 @@ hr {
         flex-direction: column;
         margin: 20px;
         flex-basis: 66%;
-    }
-    .experience-list li .experience-information:last-child {
-        border-bottom: none;
     }
     .experience-list li .experience-information p {
         margin-top: 0;
