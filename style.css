@@ -179,8 +179,8 @@ hr {
 }
 .experience-list li .expand {
     flex-basis: 3%;
-    color: lightgrey;
     cursor: pointer;
+    color: rgb(91, 131, 206);
 }
 
 .experience-text {
@@ -198,7 +198,7 @@ hr {
     display: block;
 }
 .active {
-    color: rgb(91, 131, 206) !important;
+    color: lightgrey!important;
 }
 
 .experience-list li .experience-information p {
