@@ -115,7 +115,7 @@ hr {
 }
 
 .vue-border {
-    width: 80%;
+    width: 90%;
     z-index: 2;
     background-color: rgb(91, 131, 206);
 }
@@ -146,12 +146,6 @@ hr {
 
 .git-border {
     width: 65%;
-    z-index: 2;
-    background-color: rgb(91, 131, 206);
-}
-
-.php-border {
-    width: 55%;
     z-index: 2;
     background-color: rgb(91, 131, 206);
 }
@@ -230,7 +224,9 @@ hr {
 
 @media only screen and (min-width: 998px) {
     main {
+        max-width: 998px;
         padding: 10px 235px 10px 235px;
+        margin: 0 auto;
     }
 
     .introduction {
